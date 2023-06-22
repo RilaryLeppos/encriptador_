@@ -1,0 +1,76 @@
+.informacao {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin: 2%;
+    text-align: left;     
+}
+
+.informacao h6{
+    color: #f5f5f5;
+    margin: 0 20px;
+}
+
+.botao__criptografia {
+
+    align-items: flex-end;
+    background: #f5f5f5;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    height: 40px;
+    padding: 4px auto;
+    margin: 0 40px;
+    width: 25%;
+}
+
+.botao__criptografia:hover{
+
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+    color:black;
+}
+
+.botao__descriptografia {
+
+    align-items: flex-end;
+    font-size: 15px;
+    line-height: 30px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    width: 25%;
+    height: 40px;
+    padding: 4px auto;
+    margin: 6 40px;
+}
+
+.botao__descriptografia:hover{
+
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+.botao__copiar{
+
+    font-size: 15px;
+    line-height: 30px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    width: 85%;
+    height: 40px;
+    padding: 4px auto;
+    margin: 0 40px;
+}
+
+.botao__copiar:hover{
+    
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+

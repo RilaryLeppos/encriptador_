@@ -1,0 +1,23 @@
+.textarea__criptografar, .textarea__descriptografar {
+    
+    color: #200303;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: row;
+    font-size: 15px;
+    margin: 40px;
+    padding: 1%;
+    text-transform: lowercase;
+    opacity: 60%;
+
+}
+
+
+.descripto{
+    background-image: none;
+}
+
+
+

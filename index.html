@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rilary Leppos | Encriptador </title>
-</head>
-<body>
-  
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <title>Rilary Leppos | Encriptador </title>
+
+        <!--links para os estilos css-->
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/botao.css"> 
+        <link rel="stylesheet" href="css/textarea.css">
+
+       
+
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="logo__alura" src="img/Vector.png" alt="logo-alura">
+        </header>
+
+        <main>
+
+            <section class="textarea">
+                <textarea class="textarea__criptografar" cols="85" rows="16" placeholder="Digite seu texto aqui"></textarea>                
+                
+                <div class="informacao">                          
+                    <h6>⚠️ Apenas letras minúsculas e sem acento. </h6>
+                </div>
+
+
+                <div class="botao">
+                    <button class="botao__criptografia">Criptografar</button>
+                    <button class="botao__descriptografia">Descriptografar</button>
+
+                </div>  
+                                           
+            </section>
+
+            <section class="descripto">
+                <textarea class="textarea__descriptografar" cols="40" rows="18"></textarea>
+                <button class="botao__copiar">Copiar</button>
+            </section>
+        
+        </main>
+        
+    </body>
 </html>
