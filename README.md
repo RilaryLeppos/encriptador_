@@ -5,6 +5,6 @@ Maiores detalhes podem ser encontrados neste repositório.
 
 Email para contato - leppos94@gmail.com 
 
-Redes Sociais - https://www.linkedin.com/in/rilaryleppos. 
+Redes Sociais - https://www.linkedin.com/in/rilaryleppos.
 
 Instagram Profissional - @portfull_design.

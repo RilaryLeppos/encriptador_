@@ -20,6 +20,7 @@
 
     </head>
 
+    
     <body>
         <header class="cabecalho">
             <img class="logo__alura" src="img/Vector.png" alt="logo-alura">
@@ -34,21 +35,23 @@
                     <h6>⚠️ Apenas letras minúsculas e sem acento. </h6>
                 </div>
 
-
+                
                 <div class="botao">
-                    <button class="botao__criptografia">Criptografar</button>
-                    <button class="botao__descriptografia">Descriptografar</button>
+                    <button class="botao__criptografia" onclick = "botaoEncriptar()">Criptografar</button>
+                    <button class="botao__descriptografia" onclick = "botaoDesencriptar()"> Descriptografar</button>
 
                 </div>  
-                                           
+                
             </section>
-
+            
             <section class="descripto">
                 <textarea class="textarea__descriptografar" cols="40" rows="18"></textarea>
-                <button class="botao__copiar">Copiar</button>
+                <button class="botao__copiar" onclick="copy()">Copiar</button>
             </section>
-        
+            
         </main>
         
+        <script src="script-js.js"></script>
+                
     </body>
-</html>
+    </html>
