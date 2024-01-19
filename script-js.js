@@ -39,8 +39,3 @@ function desencriptar(stringDesencriptada) {
   return stringDesencriptada;
 }
 
-function copy() {
-    let copyText = document.querySelector("#input");
-    copyText.select();
-    document.execCommand("copy");
-}
